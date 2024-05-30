@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,23 +18,20 @@ const Navbar = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="home" className="nav-logo">Max the Fotograf</a>
+      <Link to="/" className="nav-logo">Max the Fotograf</Link>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li className="nav-item">
-            <a href="portfolio" className="nav-link" onClick={closeMenu}>Portfolio</a>
+            <Link to="/portfolio" className="nav-link" onClick={closeMenu}>Portfolio</Link>
           </li>
           <li className="nav-item">
-            <a href="services" className="nav-link" onClick={closeMenu}>Usługi</a>
+            <Link to="/services" className="nav-link" onClick={closeMenu}>Usługi</Link>
           </li>
           <li className="nav-item">
-            <a href="prints" className="nav-link" onClick={closeMenu}>Wydruki</a>
+            <Link to="/prints" className="nav-link" onClick={closeMenu}>Wydruki</Link>
           </li>
           <li className="nav-item">
-            <a href="contact" className="nav-link" onClick={closeMenu}>Kontakt</a>
+            <Link to="/contact" className="nav-link" onClick={closeMenu}>Kontakt</Link>
           </li>
-          {/* <li className="nav-item">
-            <a href="blog" className="nav-link" onClick={closeMenu}>Blog</a>
-          </li> */}
         </ul>
         <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span className="bar"></span>
