@@ -6,6 +6,8 @@ import Prints from "./pages/Prints.jsx";
 import Services from "./pages/Services.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio.jsx";
+// import "./Footer.css"
+import "./App.css"
 
 function App() {
 

@@ -10,6 +10,10 @@ html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
+body {
+    background-color: #101010;
+    color: #fff;
+}
 
 .header {
     border-bottom: 1px solid #E2E8F0;
@@ -53,7 +57,7 @@ html {
 .nav-link {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: #c7c7c7;
 }
 
 .nav-link:hover {
