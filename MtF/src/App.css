@@ -3,8 +3,15 @@
     flex-direction: column;
     min-height: 100vh;
   }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  }
   
   .content {
     flex: 1;
     padding-bottom: 100rem; /* Odstęp na stopkę */
+    z-index: 2;
   }
