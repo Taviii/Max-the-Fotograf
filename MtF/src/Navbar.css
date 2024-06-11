@@ -11,8 +11,8 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-color: #101010;
-    color: #fff;
+    background-color: #262828;
+    color: #f9ffff;
 }
 
 .header {
@@ -30,6 +30,7 @@ body {
 .hamburger {
     display: none;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .bar {
@@ -37,8 +38,8 @@ body {
     width: 25px;
     height: 3px;
     margin: 5px auto;
+    background-color: #1E91A3;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
 }
 
 .nav-menu {
@@ -57,18 +58,18 @@ body {
 .nav-link {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #c7c7c7;
+    color: #415d61;
 }
 
 .nav-link:hover {
-    color: #482ff7;
+    color: #1E91A3;
 }
 
 .nav-logo {
     text-align: center;
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #1E91A3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,9 +83,8 @@ body {
         left: 100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: #f9ffff;
         width: 100%;
-        border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);

@@ -2,6 +2,6 @@
 
 export default function Header(){
     return (
-        <h1>Header: React Router</h1>
+        <h3>Header: React Router</h3>
     )
 }
