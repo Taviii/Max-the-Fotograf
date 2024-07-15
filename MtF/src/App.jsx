@@ -6,6 +6,7 @@ import Prints from "./pages/Prints.jsx";
 import Services from "./pages/Services.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Portfolio from "./pages/Portfolio.jsx";
+import HeroSection from "./pages/HeroSection.jsx";
 import "./App.css"
 // import "./Footer.css";
 
@@ -16,7 +17,7 @@ function App() {
     <Navbar/>
     <div>
         <Routes>
-          <Route index element={<Portfolio />} />
+          <Route index element={<HeroSection />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
