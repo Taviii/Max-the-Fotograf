@@ -1,6 +1,6 @@
 import Card from "../Card.jsx"
 import Header from  "../components/Header.jsx"
-import "../pages/Portfoltio.css"
+import "../pages/Portfolio.css"
 
 export default function Portfolio() {
     return (
